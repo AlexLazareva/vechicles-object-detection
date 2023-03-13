@@ -29,8 +29,8 @@ git clone https://github.com/chuanqi305/MobileNet-SSD.git
 ```
 - To run inference on a test video file, head into the directory/use the command: 
 ```
-python main.py  –-prototxt MobileNetSSD_deploy.prototxt.txt 
---model MobileNetSSD_deploy.caffemodel  –confidence 0.3
+python main.py  –-prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt.txt 
+--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel  –confidence 0.3
 ```
 <div align="center">
     <img src="images/console_running.png" width="500">
