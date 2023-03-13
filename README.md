@@ -32,3 +32,7 @@ git clone https://github.com/chuanqi305/MobileNet-SSD.git
 python main.py  –-prototxt MobileNetSSD_deploy.prototxt.txt 
 --model MobileNetSSD_deploy.caffemodel  –confidence 0.3
 ```
+<img src="images/console_running.png" width="1813" height="172">
+
+Result of running program:
+<img src="images/result.png" width="500">
