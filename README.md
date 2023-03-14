@@ -21,7 +21,7 @@ Vehicles Counting in Real-Time using live video stream/IP camera in OpenCV.
 ## Running Inference
 - First up, install all the required Python dependencies:
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 - Then clone MobileNet-SSD Caffe model:
 ```
@@ -36,7 +36,7 @@ python main.py  –-prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt.txt
     <img src="images/console_running.png" width="500">
 </div>
 
-Result of running program:
+The result of running program:
 <div align="center">
     <img src="images/result.png" width="500">
 </div>
